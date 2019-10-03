@@ -5,4 +5,6 @@ class(b)
 c=3+2i
 class(c)
 d="20"
-class(c)
+class(d)
+e="3+2i"
+class(e)
