@@ -44,5 +44,5 @@ a
 a=sample(1:100,50)
 summary(a)
 islands
-a
+
 
