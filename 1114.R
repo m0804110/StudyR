@@ -40,3 +40,4 @@ rep(c(T,F),24)
 x=1:48
 islands[x%%2==1]
 islands[x%%2==0]
+a
