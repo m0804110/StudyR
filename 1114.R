@@ -25,10 +25,13 @@ month.data=c(31,28,31,30,31,30,31,31,30,31,30,31)
 names(month.data)=month.name
 names(month.data[month.data==31])
 #4
-thirty35.islands=islands[30:35]
-thirty35.islands
-islands
-
+a=islands
+b=sort(a)
+b[30]
+b[35]
+c=sort(a,decreasing = TRUE)
+c[30]
+c[35]
 #5
 big15.islands=head(sort(islands,decreasing=TRUE),15)
 big15.islands
@@ -40,4 +43,4 @@ rep(c(T,F),24)
 x=1:48
 islands[x%%2==1]
 islands[x%%2==0]
-a
+islands
